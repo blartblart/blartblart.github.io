@@ -1,6 +1,7 @@
 .banner {
-    background-color: rgb(178, 116, 250);
-    color: #e4ff98;
+    background-color: rgb(186, 167, 253);
+    color: #f3fd98;
+    font-size: 6em;
     margin-top: 75px;
     text-align: center;
     padding: 100px;
@@ -21,6 +22,6 @@
 
 }
 
-h1 {
-    font-size: xx-large;
+body {
+    background-color: pink;
 }
