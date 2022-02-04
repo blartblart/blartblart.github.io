@@ -1,6 +1,6 @@
 .banner {
     background-color: rgb(178, 116, 250);
-    color: #f0ff98;
+    color: #e4ff98;
     margin-top: 75px;
     text-align: center;
     padding: 100px;
@@ -19,4 +19,3 @@
 .bold {
     font-weight: 900
 }
-
