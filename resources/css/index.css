@@ -1,27 +1,39 @@
 .banner {
     background-color: rgb(186, 167, 253);
     color: #f3fd98;
-    font-size: 6em;
-    margin-top: 75px;
+    margin-top: 10px;
     text-align: center;
     padding: 100px;
 }
 
 #small-fish {
     height: 300px;
-}
-
-#Loooooooserrrr {
-    color: #4D00ff;
-    font-size: 100px;
-
+    background-color: orange;
+    margin-top: 10px;
+    vertical-align: center;
+    padding 200 px;
 }
 
 .bold {
-    font-weight: 900
+    background-color: aquamarine;
+    color: rgb(186, 167, 253);
+    margin-top: 10px;
+    text-align: center;
+    padding: 100 px;
+    
 
 }
 
 body {
     background-color: pink;
 }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12em;
+}
+
+h2 {
+    font-size: 6em;
+}
+
