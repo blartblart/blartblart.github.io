@@ -8,10 +8,11 @@
 
 #small-fish {
     height: 300px;
-    background-color: orange;
+    width: 100%;
+    /*background-color: orange;*/
     margin-top: 10px;
     vertical-align: center;
-    padding 200 px;
+    /*padding 200 px;*/
 }
 
 .bold {
