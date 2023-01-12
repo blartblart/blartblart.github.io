@@ -3,6 +3,33 @@ body {
     background-color: pink;
 }
 
+#navbar {
+    background-color: rgb(186, 167, 253);
+    position: fixed;
+    width: 100%;
+    /* z-index: 1; */ 
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+#navbar a {
+    color:  	#fbedaf;
+    font-family: Gill Sans;
+    text-transform: lowercase;
+    text-decoration: none;
+    display: block ;
+    padding: 40px 30px;
+    margin-top: 10px;
+}
+
+#navbar a:hover {
+    background-color: transparent;
+    color: #b82125;
+
+}
+
 #banner {
     background-color: rgb(186, 167, 253);
     color: #f3fd98;
