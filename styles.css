@@ -43,7 +43,9 @@ body {
     font-size: 12em;
 }
 
-.first {
-    width: 500px;
+#first {
+    max-width: 500px;
     margin: 300px;
+    padding: 500px;
 }
+
