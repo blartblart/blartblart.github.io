@@ -42,3 +42,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12em;
 }
+
+.first {
+    width: 500px;
+    margin: 300px;
+}
