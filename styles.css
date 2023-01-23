@@ -5,13 +5,18 @@ body {
 
 #navbar {
     background-color: rgb(186, 167, 253);
-    position: fixed;
+    position: static;
     width: 100%;
     /* z-index: 1; */ 
     display: flex;
     justify-content: center;
+    text-decoration: none;
     /* flex-wrap: wrap; */
     
+}
+
+#navbar ul {
+    list-style-type: none;
 }
 
 #navbar a {
@@ -22,6 +27,7 @@ body {
     display: block ;
     padding: 40px 30px;
     margin-top: 10px;
+    font-size: 24px;
 }
 
 #navbar a:hover {
@@ -44,8 +50,27 @@ body {
 }
 
 #first {
-    max-width: 500px;
-    margin-top: 300px;
-    padding: 500px;
+    max-width: 550px;
+    margin-top: 20px;
+    background-color: #defba1;
+    padding: 20px;
 }
+
+#first h2 {
+    font-family: Calibri, sans-serif;
+}
+
+#first h4 {
+    text-align: center;
+}
+
+#first img {
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: rgb(186, 167, 253); 
+    padding-left: 110px;  
+    
+}
+
+
 
