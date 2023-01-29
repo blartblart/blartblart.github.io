@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: pink;
@@ -7,11 +11,13 @@ body {
     background-color: rgb(186, 167, 253);
     position: static;
     width: 100%;
-    /* z-index: 1; */ 
+    z-index: 1; 
     display: flex;
     justify-content: center;
     text-decoration: none;
     /* flex-wrap: wrap; */
+    margin: 20px;
+    margin-right: 20px;
     
 }
 
@@ -49,28 +55,43 @@ body {
     font-size: 12em;
 }
 
-#first {
-    max-width: 550px;
+.first {
+    max-width: 25%;
     margin-top: 20px;
     background-color: #defba1;
     padding: 20px;
+    float: left;
+    margin: 20px;
 }
 
-#first h2 {
+.first h2 {
     font-family: Calibri, sans-serif;
 }
 
-#first h4 {
+.first h4 {
     text-align: center;
 }
 
-#first img {
+#braveheart img {
+    display: block;
     border-radius: 50%;
-    border-width: 10px;
-    border-color: rgb(186, 167, 253); 
-    padding-left: 110px;  
+    border-style: solid;
+    border-width: 20px;
+    border-color:  rgb(186, 167, 253);
+    margin-left: auto;
+    margin-right: auto;
+ 
     
 }
 
+#land img {
+    display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+    border-color:  rgb(186, 167, 253);
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
