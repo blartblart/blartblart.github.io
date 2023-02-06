@@ -7,6 +7,14 @@ body {
     background-color: pink;
 }
 
+div {
+    display: inline-block;
+    width: 100vw;
+    padding: 1vw;
+    width: calc(33.33%);
+    float: left;
+  }
+
 #navbar {
     background-color: rgb(186, 167, 253);
     position: static;
@@ -55,14 +63,27 @@ body {
     font-size: 12em;
 }
 
-.first {
+/*.first {
     max-width: 25%;
     margin-top: 20px;
     background-color: #defba1;
     padding: 20px;
     float: left;
     margin: 20px;
+}*/
+
+div.first {
+    margin-top: 20px;
+    background-color: #defba1;
+    padding: 20px;
+    margin: 10px;
 }
+
+div.first:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 
 .first h2 {
     font-family: Calibri, sans-serif;
@@ -86,6 +107,17 @@ body {
 
 #land img {
     display: block;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+    border-color:  rgb(186, 167, 253);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#railroad img {
+    display: block;
+    width: 100%;
     border-radius: 50%;
     border-style: solid;
     border-width: 20px;
