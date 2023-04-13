@@ -11,7 +11,6 @@ div {
     display: inline-block;
     padding: 1vw;
     width: calc(33.33%);
-    float: left;
   }
 
 #navbar {
@@ -127,7 +126,7 @@ div.first:after {
 
 #vervecke img {
     display: block;
-    width: 100px;
+    width: 100%S;
     border-radius: 50%;
     border-style: solid;
     border-width: 20px;
