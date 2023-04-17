@@ -54,18 +54,18 @@
   }
   
   #des {
-    background-color:rgb(181, 191, 90);
+    background-color:rgb(255, 255, 255);
     border: solid;
   }
   
   #ing {
-    background-color:rgb(241, 115, 60);
+    background-color:rgb(255, 255, 255);
     border: solid;
     
   }
   
   #dir {
-    background-color:gold;
+    background-color:rgb(255, 255, 255);
     border: solid;
   }
   
