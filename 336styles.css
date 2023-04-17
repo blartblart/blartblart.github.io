@@ -68,6 +68,16 @@
     background-color:rgb(255, 255, 255);
     border: solid;
   }
+
+  #styleguide {
+    position: relative;
+    height: 150vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/sellasstyleguide.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
   
   
   span {
