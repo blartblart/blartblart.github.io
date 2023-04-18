@@ -124,6 +124,38 @@
     background-color: white;
   }
 
+  #bcal {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblackcal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #bpie {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblackpie.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #btwist {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtblacktwist.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+
+
 
   
   
@@ -149,7 +181,7 @@
   @media (orientation: landscape) {
     
     div#shirtblack div {
-      width: calc(100%);
+      width: calc(33.33%);
       float: left;
     }
   }
@@ -157,7 +189,7 @@
   @media (orientation: landscape) {
     
     div#shirtgrey div {
-      width: calc(100%);
+      width: calc(33.33%);
       float: left;
     }
   }
