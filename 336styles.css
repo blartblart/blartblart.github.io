@@ -28,7 +28,7 @@
   p, ul, ol, li {
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 0;
-    padding-left: 1em;
+    padding-left: 2em;
   }
   
   #hero {
@@ -56,17 +56,22 @@
   #des {
     background-color:rgb(255, 255, 255);
     border: solid;
+    border-width: 10px;
   }
   
   #ing {
     background-color:rgb(255, 255, 255);
     border: solid;
+    border-width: 10px;
+    margin-top: 10px;
     
   }
   
   #dir {
     background-color:rgb(255, 255, 255);
     border: solid;
+    border-width: 10px;
+    margin-top: 10px;
   }
 
   #styleguide {
@@ -78,6 +83,48 @@
     background-position: center center;
     background-color: white;
   }
+
+  #menufront {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/menufront.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #menuback {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/menuback.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #packaging {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/packaging.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #packaging2 {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/packaging2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+
   
   
   span {
@@ -94,7 +141,23 @@
   @media (orientation: landscape) {
     
     div#columns div {
-      width: calc(33.33%);
+      width: calc(100%);
+      float: left;
+    }
+  }
+
+  @media (orientation: landscape) {
+    
+    div#shirtblack div {
+      width: calc(100%);
+      float: left;
+    }
+  }
+
+  @media (orientation: landscape) {
+    
+    div#shirtgrey div {
+      width: calc(100%);
       float: left;
     }
   }
