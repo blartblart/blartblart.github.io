@@ -154,6 +154,36 @@
     background-color: white;
   }
 
+  #gpie {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreypie.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #gtwist {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreytwist.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
+  #gcal {
+    position: relative;
+    height: 50vh;
+    width: 33.33%;
+    background-image: url("https://elnazarov.reclaim.hosting/shelter/shirtgreycal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+  }
+
 
 
 
