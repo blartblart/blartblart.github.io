@@ -10,7 +10,7 @@ body {
 div {
     display: inline-block;
     padding: 1vw;
-    width: calc(33.33%);
+    /*width: calc(33.33%);*/
   }
 
 #navbar {
