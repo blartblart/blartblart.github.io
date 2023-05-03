@@ -74,7 +74,7 @@ div.first {
     margin-top: 20px;
     background-color: #defba1;
     padding: 20px;
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 div.first:after {
