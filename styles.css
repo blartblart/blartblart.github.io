@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: pink;
+    background-color: rgb(254, 254, 254);
 }
 
 div {
@@ -14,7 +14,8 @@ div {
   }
 
 #navbar {
-    background-color: rgb(186, 167, 253);
+    background-color: rgb(254, 222, 222);
+    overflow: auto;
     position: static;
     width: 100%;
     z-index: 1; 
@@ -32,7 +33,7 @@ div {
 }
 
 #navbar a {
-    color:  	#fbedaf;
+    color:  	#434137;
     font-family: Gill Sans;
     text-transform: lowercase;
     text-decoration: none;
@@ -49,7 +50,7 @@ div {
 }
 
 #banner {
-    background-color: rgb(186, 167, 253);
+    background-color: rgb(250, 250, 250);
     color: #f3fd98;
     margin-top: 10px;
     text-align: center;
