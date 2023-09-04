@@ -4,10 +4,10 @@
   
   body {
     margin: 0;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Hind', sans-serif;
   }
   
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,19 +18,35 @@
     overflow: auto;
   }
   
-  li a {
+  nav ul li a {
     display: block;
-    color: #000;
+    color:black;
     padding: 8px 16px;
     text-decoration: none;
   }
   
-  li a.active {
-    background-color: #91aa04;
+  nav ul li a.active {
+    background-color: #595959;
     color: white;
   }
   
-  li a:hover:not(.active) {
-    background-color: rgb(245, 167, 167);
-    color: white;
+  nav ul li a:hover:not(.active) {
+    background-color: rgb(244, 224, 48);
+    color: #595959;
+  }
+
+  p {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  div.prompt {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(244, 224, 48, 0.5);
+    font-weight: bold;
+    font-style: italic;
+    max-width: 800px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3%;
   }
