@@ -1,160 +1,53 @@
-*{
+* {
     box-sizing: border-box;
-}
-
-
+  }
+  
 body {
-    background-color: rgb(254, 254, 254);
+    padding: 0;
+    margin: 0;
 }
-
-div {
-    display: inline-block;
-    padding: 1vw;
-    /*width: calc(33.33%);*/
-  }
-
+  
 #navbar {
-    background-color: rgb(254, 222, 222);
+    background-color: gray;
     overflow: auto;
-    position: static;
-    width: 100%;
-    z-index: 1; 
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    /* flex-wrap: wrap; */
-    margin: 20px;
-    margin-right: 20px;
-    
 }
-
-#navbar ul {
+  
+a {
+    color: white;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+  
+a:hover {
+    background-color: lightgray;
+    color: black;
+}
+  
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
 }
-
-#navbar a {
-    color:  	#434137;
-    font-family: Gill Sans;
-    text-transform: lowercase;
-    text-decoration: none;
-    display: block ;
-    padding: 40px 30px;
-    margin-top: 10px;
-    font-size: 24px;
-}
-
-#navbar a:hover {
-    background-color: transparent;
-    color: #b82125;
-
-}
-
-#banner {
-    background-color: rgb(250, 250, 250);
-    color: #f3fd98;
-    margin-top: 10px;
-    text-align: center;
-    padding: 100px;
-}
-
-#banner h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12em;
-}
-
-/*.first {
-    max-width: 25%;
-    margin-top: 20px;
-    background-color: #defba1;
-    padding: 20px;
+  
+li {
     float: left;
-    margin: 20px;
-}*/
-
-div.first {
-    margin-top: 20px;
-    background-color: #defba1;
-    padding: 20px;
-    /*margin: 10px;*/
 }
-
-div.first:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-.first h2 {
-    font-family: Calibri, sans-serif;
-}
-
-.first h4 {
-    text-align: center;
-}
-
-#braveheart img {
-    display: block;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
- 
-    
-}
-
-#land img {
-    display: block;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#railroad img {
-    display: block;
+  
+li li {
+    clear: left;
     width: 100%;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
 }
-
-#vervecke img {
-    display: block;
-    width: 100%S;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
+  
+ul ul {
+    display: none;
+    position: absolute;
 }
-
-#trinity img {
+  
+ul li:hover ul {
     display: block;
-    width: 100%S;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#vertesi img {
-    display: block;
-    width: 100%S;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 20px;
-    border-color:  rgb(186, 167, 253);
-    margin-left: auto;
-    margin-right: auto;
 }
 
