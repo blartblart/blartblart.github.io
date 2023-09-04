@@ -4,6 +4,7 @@
   
   body {
     margin: 0;
+    font-family: 'Cormorant Garamond', serif;
   }
   
   ul {
@@ -25,11 +26,11 @@
   }
   
   li a.active {
-    background-color: #04AA6D;
+    background-color: #91aa04;
     color: white;
   }
   
   li a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(245, 167, 167);
     color: white;
   }
