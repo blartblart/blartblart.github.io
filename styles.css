@@ -36,6 +36,10 @@ nav li a:hover:not(.active) {
     color: #595959;
 }
 
+img.blart {
+    max-width: 25%;
+}
+
 p {
     font-family: 'Cormorant Garamond', serif;
 }
