@@ -46,6 +46,11 @@ img.blart {
 p {
     font-family: 'Cormorant Garamond', serif;
 }
+ 
+a {
+    color: rgb(244, 107, 48);
+    text-decoration: none;
+}
 
 div.prompt {
     font-family: 'Cormorant Garamond', serif;
