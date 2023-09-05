@@ -40,7 +40,7 @@ img.blart {
     max-width: 500px;
     width: 100%;
     min-width: 25%;
-    border-radius: 4%;
+    border-radius: 25px;
 }
 
 p {
@@ -53,8 +53,23 @@ div.prompt {
     font-weight: bold;
     font-style: italic;
     max-width: 800px;
+    width: 100%;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 4%;
+    border-radius: 25px;
+}
+
+div.response {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f1f1f1;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+   
 }
