@@ -46,6 +46,7 @@ img.blart {
 img.journal {
     max-width: 800px;
     width: 100%;
+    min-width: 25%;
 }
 
 p {
