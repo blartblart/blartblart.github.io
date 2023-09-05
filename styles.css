@@ -43,6 +43,11 @@ img.blart {
     border-radius: 25px;
 }
 
+img.journal {
+    max-width: 800px;
+    width 100%;
+}
+
 p {
     font-family: 'Cormorant Garamond', serif;
 }
