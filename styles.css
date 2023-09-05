@@ -37,7 +37,9 @@ nav li a:hover:not(.active) {
 }
 
 img.blart {
-    max-width: 25%;
+    max-width: 500px;
+    width: 100%;
+    min-width: 25%;
 }
 
 p {
