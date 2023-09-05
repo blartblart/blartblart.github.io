@@ -86,3 +86,8 @@ div.response {
     overflow: auto;
    
 }
+
+div.break {
+    max-width: 800px;
+    width: 100%;
+}
