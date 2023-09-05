@@ -40,6 +40,7 @@ img.blart {
     max-width: 500px;
     width: 100%;
     min-width: 25%;
+    border-radius: 4%;
 }
 
 p {
