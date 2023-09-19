@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}*
+  
+body {
+    margin: 0;
+    background-color: #f6f3e5;
+    font-family: 'Pirata One', cursive; 
+}
+
+h1 {
+    size: 100px;
+}
+
+.forUA {
+    top: 92%;
+    background-color: transparent;
+    padding: 8px 16px;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #1d7151;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  
+nav li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+  
+nav li a:hover:not(.active) {
+    background-color: #17583d;
+    color: #e65919;
+}
+
+img.blart {
+    max-width: 200px;
+    width: 100%;
+    min-width: 25%;
+    margin-left: 150px;
+}
+
+img.journal {
+    max-width: 800px;
+    width: 100%;
+    min-width: 25%;
+}
+
+#ptnsux {
+    max-width: 50px;
+    width: 100%;
+    min-width: 50px;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
+ 
+a {
+    color: rgb(244, 107, 48);
+    text-decoration: none;
+}
+
+div#backtotop {
+    background-color: #f6f0d100;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div#when {
+    background-color: #f6f0d1;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div#where {
+    background-color: #e65a1900;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div#registry {
+    background-color: #f6f0d1;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div.prompt {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(244, 224, 48, 0.3);
+    font-weight: bold;
+    font-style: italic;
+    max-width: 800px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div.response {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f1f1f1;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+   
+}
+
+div.break {
+    max-width: 800px;
+    width: 100%;
+}
