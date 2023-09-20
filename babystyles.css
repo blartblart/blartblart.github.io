@@ -8,10 +8,6 @@ body {
     font-family: 'Pirata One', cursive; 
 }
 
-h1 {
-    size: 100px;
-}
-
 .forUA {
     top: 92%;
     background-color: transparent;
@@ -47,7 +43,7 @@ img.blart {
     max-width: 200px;
     width: 100%;
     min-width: 25%;
-    margin-left: 150px;
+    margin-left: 60px;
 }
 
 img.journal {
@@ -63,7 +59,7 @@ img.journal {
 }
 
 p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Nanum Myeongjo', serif;
 }
  
 a {
@@ -75,12 +71,10 @@ div#backtotop {
     background-color: #f6f0d100;
     max-width: 800px;
     width: 100%;
-    margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 25px;
     overflow: auto;
 }
 
@@ -121,6 +115,10 @@ div#registry {
     padding-right: 20px;
     border-radius: 25px;
     overflow: auto;
+}
+
+div#backtotop h1 {
+    font-size: 300%;
 }
 
 div.prompt {
