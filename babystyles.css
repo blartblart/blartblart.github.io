@@ -124,36 +124,26 @@ div#backtotop h1 {
     font-size: 300%;
 }
 
-div.prompt {
-    font-family: 'Cormorant Garamond', serif;
-    background-color: rgb(244, 224, 48, 0.3);
-    font-weight: bold;
-    font-style: italic;
-    max-width: 800px;
+.divbutton {
     width: 100%;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
+}
+
+.button {
+    font-family: 'Pirata One', cursive;
+    font-size: 8vw;
+    background-color: #f6f3e5;
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 30%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 48%;
     overflow: auto;
 }
 
-div.response {
-    font-family: 'Cormorant Garamond', serif;
-    background-color: #f1f1f1;
-    max-width: 800px;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
-    overflow: auto;
-   
-}
-
-div.break {
-    max-width: 800px;
-    width: 100%;
+.buttone#monkey {
+    background-image: url("orangutang.png");
 }
