@@ -19,7 +19,7 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #1d7151;
+    background-color: #124516;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -35,7 +35,7 @@ nav li a {
 }
   
 nav li a:hover:not(.active) {
-    background-color: #17583d;
+    background-color: #0b2b0d72;
     color: #e65919;
 }
 
