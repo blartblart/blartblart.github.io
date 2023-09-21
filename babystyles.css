@@ -146,9 +146,9 @@ div#backtotop h1 {
     cursor: pointer;
 }
 
-a.button {
+/*a.button {
     display: block;
-}
+}*/
 
 .button#monkey {
     background-image: url("orangutang.png");
