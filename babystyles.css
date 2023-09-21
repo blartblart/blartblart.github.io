@@ -135,13 +135,19 @@ div#backtotop h1 {
     border: solid;
     border-color: black;
     border-width: 4px;
-    border-radius: 30%;
-    padding: 15px 32px 200px;
+    border-radius: 6%;
+    padding: 15px 32px 150px;
+    margin: 5px;
     /*text-align: center;*/
     text-decoration: none;
     display: inline-block;
     width: 48%;
     overflow: auto;
+    cursor: pointer;
+}
+
+a.button {
+    display: block;
 }
 
 .button#monkey {
