@@ -41,9 +41,11 @@ nav li a:hover:not(.active) {
 
 img.blart {
     max-width: 200px;
-    width: 100%;
     min-width: 25%;
-    margin-left: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 img.journal {
