@@ -71,17 +71,6 @@ a {
 }
 
 div#backtotop {
-    background-color: #f6f0d1;
-    max-width: 800px;
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    overflow: auto;
-}
-
-div#what {
     background-color: #f6f0d100;
     max-width: 800px;
     width: 100%;
@@ -92,8 +81,19 @@ div#what {
     overflow: auto;
 }
 
-div#when {
+div#what {
     background-color: #f6f0d1;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+div#when {
+    background-color: #f6f0d100;
     max-width: 800px;
     width: 100%;
     margin-top: 20px;
@@ -106,19 +106,6 @@ div#when {
 }
 
 div#where {
-    background-color: #e65a1900;
-    max-width: 800px;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
-    overflow: auto;
-}
-
-div#registry {
     background-color: #f6f0d1;
     max-width: 800px;
     width: 100%;
@@ -131,8 +118,21 @@ div#registry {
     overflow: auto;
 }
 
-div#contact {
+div#registry {
     background-color: #f6f0d100;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+div#contact {
+    background-color: #f6f0d1;
     max-width: 800px;
     width: 100%;
     margin-top: 20px;
@@ -155,12 +155,12 @@ div#backtotop h1 {
 .button {
     font-family: 'Pirata One', cursive;
     font-size: 6vw;
-    background-color: #f6f3e5;
+    background-color: #f6f0d1;
     border: solid;
     border-color: black;
     border-width: 4px;
     border-radius: 6%;
-    padding: 15px 32px 200px;
+    padding: 15px 32px 6.5vw;
     margin: 5px;
     /*text-align: center;*/
     text-decoration: none;
@@ -177,13 +177,13 @@ div#backtotop h1 {
 .button#monkey {
     background-image: url("orangutang.png");
     background-repeat: no-repeat;
-    background-size: 10vw;
+    background-size: 4vw;
     background-position: center 83%;
 }
 
 .button#beaver {
     background-image: url("beaver.png");
     background-repeat: no-repeat;
-    background-size: 18vw;
+    background-size: 6vw;
     background-position: center 83%;
 }
