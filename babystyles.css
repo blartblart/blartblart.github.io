@@ -75,9 +75,6 @@ div#backtotop {
     overflow: auto;
 }
 
-div#backtotop p {
-    text-align: left;
-}
 
 div#what {
     background-color: #f6f0d1;
@@ -90,9 +87,6 @@ div#what {
     overflow: auto;
 }
 
-div#what p {
-    text-align: left;
-}
 
 div#when {
     background-color: #f6f0d100;
@@ -133,9 +127,6 @@ div#registry {
     overflow: auto;
 }
 
-div#registry p {
-    text-align: left;
-}
 
 div#contact {
     background-color: #f6f0d1;
@@ -150,9 +141,6 @@ div#contact {
     overflow: auto;
 }
 
-div#contact p {
-    text-align: left;
-}
 
 div#backtotop h1 {
     font-size: 300%;
