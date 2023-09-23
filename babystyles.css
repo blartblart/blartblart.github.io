@@ -159,9 +159,9 @@ div#backtotop h1 {
     border-color: black;
     border-width: 4px;
     border-radius: 6%;
-    padding: 15px 32px 11vw;
+    padding: 15px 0px 11vw;
     margin: 5px;
-    /*text-align: center;*/
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 48%;
