@@ -75,6 +75,10 @@ div#backtotop {
     overflow: auto;
 }
 
+div#backtotop p {
+    text-align: left;
+}
+
 div#what {
     background-color: #f6f0d1;
     max-width: 800px;
@@ -84,6 +88,10 @@ div#what {
     padding-left: 20px;
     padding-right: 20px;
     overflow: auto;
+}
+
+div#what p {
+    text-align: left;
 }
 
 div#when {
@@ -125,6 +133,10 @@ div#registry {
     overflow: auto;
 }
 
+div#registry p {
+    text-align: left;
+}
+
 div#contact {
     background-color: #f6f0d1;
     max-width: 800px;
@@ -138,12 +150,17 @@ div#contact {
     overflow: auto;
 }
 
+div#contact p {
+    text-align: left;
+}
+
 div#backtotop h1 {
     font-size: 300%;
 }
 
-.divbutton {
+#registry.divbutton {
     width: 100%;
+
 }
 
 .button {
