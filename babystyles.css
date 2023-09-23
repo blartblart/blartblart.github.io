@@ -55,12 +55,6 @@ img.journal {
     min-width: 25%;
 }
 
-#ptnsux {
-    max-width: 50px;
-    width: 100%;
-    min-width: 50px;
-}
-
 p {
     font-family: 'Nanum Myeongjo', serif;
 }
@@ -186,4 +180,18 @@ div#backtotop h1 {
     background-repeat: no-repeat;
     background-size: 11vw;
     background-position: center 80%;
+}
+
+img#lizard {
+    background-image: url("lizardparty.png");
+    width: 5vw;
+    height: 5vw;
+    margin-top: 25px;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 40px
+}
+
+span {
+    padding-top: 25px; 
 }
